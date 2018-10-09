@@ -41,11 +41,11 @@ class Cipher
             $this->logic = [
                 'a' => 'z', 'b' => 'y', 'c' => 'x',
                 'd' => 'w', 'e' => 'v', 'f' => 'u',
-                'g' => 't', 'h' => 'Numbers', 'i' => 'r',
+                'g' => 't', 'h' => 's', 'i' => 'r',
                 'j' => 'q', 'k' => 'p', 'l' => 'o',
                 'm' => 'n', 'n' => 'm', 'o' => 'l',
                 'p' => 'k', 'q' => 'j', 'r' => 'i',
-                'Numbers' => 'h', 't' => 'g', 'u' => 'f',
+                's' => 'h', 't' => 'g', 'u' => 'f',
                 'v' => 'e', 'w' => 'd', 'x' => 'c',
                 'y' => 'b', 'z' => 'a'
             ];
@@ -57,7 +57,7 @@ class Cipher
                 'j' => 'abaaa', 'k' => 'abaab', 'l' => 'ababa',
                 'm' => 'ababb', 'n' => 'abbaa', 'o' => 'abbab',
                 'p' => 'abbba', 'q' => 'abbbb', 'r' => 'baaaa',
-                'Numbers' => 'baaab', 't' => 'baaba', 'u' => 'baabb',
+                's' => 'baaab', 't' => 'baaba', 'u' => 'baabb',
                 'v' => 'baabb', 'w' => 'babaa', 'x' => 'babab',
                 'y' => 'babba', 'z' => 'babbb'
             ];
